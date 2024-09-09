@@ -1,8 +1,6 @@
 # Ciclo ‘La Sonrisa en el Corazón’ 24/25
 
-Te acompaño en un proceso de auto-descubrimiento y transformación interior a través de
-
-## Biodanza
+Te acompaño en un proceso de auto-descubrimiento y transformación interior a través de __Biodanza__:
 
 A habitar el cuerpo y desbloquear emociones, abriendo las alas de tu potencial.
 
