@@ -41,9 +41,10 @@
 }
 
 .landing-layout {
-  margin-top: 1rem;
+  .page-header .project-name {
+    margin-top: 1rem;
+  }
 }
-
 
 #top-logo {
   img {
