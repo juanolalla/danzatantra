@@ -11,18 +11,24 @@
   }
 }
 
-.page-header a {
-  color: #fff;
+.default-layout {
+
+  .page-header {
+    padding: 1rem;
+
+    a {
+      color: #fff;
+    }
+  }
 }
 
-.default-layout .page-header {
-  padding: 1rem 1rem;
-}
-
-#top-menu-nav {
-  .menu-item-logo img {
+#top-logo {
+  img {
     vertical-align: middle;
   }
+  span {
+  font-weight: bold;
+  padding: 2px 2px;
 }
 
 #top-menu {
@@ -40,6 +46,6 @@
   position: relative;
 }
 
-#top-menu a .active {
+#top-menu li.active a {
   text-decoration: underline;
 }

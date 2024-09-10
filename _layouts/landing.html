@@ -19,15 +19,14 @@
       <div class="page-header-content">
         <div id="header-top-container">
           <div id="top-logo"><a class="home-link" href="/">
+            <span class="text-logo-left">danza</span>
             <img class="logo" src="/assets/images/danzatantra-logo.png" title="danza tantra" alt="Inicio" width="42" height="42">
+            <span class="text-logo-right">tantra</span>
           </a></div>
-          <nav id="top-menu-nav">
-            <ul id="top-menu" class="nav">
-              <li class="menu-item"><a href="/biodanza-granada">Biodanza</a></li>
-              <li class="menu-item"><a href="/masaje-granada">Masaje</a></li>
-              <li class="menu-item"><a href="/sobre-mi">Sobre mí</a></li>
-            </ul>
-          </nav>
+          <h1 class="project-name">{{ page.title }}</h1>
+          <% if page.description %>
+            <h2 class="project-tagline">{{ page.description }}</h2>
+          <% endif %>
         </div>
       </div>
     </header>
