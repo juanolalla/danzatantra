@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body class="default-layout">
+  <body class="landing-layout">
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -24,9 +24,9 @@
             <span class="text-logo-right">tantra</span>
           </a></div>
           <h1 class="project-name">{{ page.title }}</h1>
-          <% if page.description %>
+          {% if page.description %}
             <h2 class="project-tagline">{{ page.description }}</h2>
-          <% endif %>
+          {% endif %}
         </div>
       </div>
     </header>
