@@ -1,5 +1,5 @@
 ---
-layout: sesiones
+layout: default
 ---
 # Sesiones de Biodanza en Granada
 
