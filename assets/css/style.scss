@@ -11,14 +11,14 @@
   }
 }
 
-.default-layout {
+.page-header a {
+  color: #fff;
+}
+  
+.default-layout, .landing {
 
   .page-header {
     padding: 1rem;
-
-    a {
-      color: #fff;
-    }
   }
 }
 
