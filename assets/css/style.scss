@@ -4,11 +4,13 @@
 @import "{{ site.theme }}";
 
 .page-header a {
-  color: #606c71;
+  color: #fff;
 }
 
 #top-menu-nav {
-
+  .menu-item-logo img {
+    vertical-align: middle;
+  }
 }
 
 #top-menu {
