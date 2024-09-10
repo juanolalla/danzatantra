@@ -6,7 +6,6 @@
 @media screen and (min-width: 64em) {
   #header-top-container {
     max-width: 64rem;
-    padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
   }
@@ -14,6 +13,10 @@
 
 .page-header a {
   color: #fff;
+}
+
+.default-layout .page-header {
+  padding: 1rem 1rem;
 }
 
 #top-menu-nav {
