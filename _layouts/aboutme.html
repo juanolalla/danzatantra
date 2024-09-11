@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body class="landing-layout">
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <div class="page-header-content">
+        <div id="header-top-container">
+          <div id="top-logo"><a class="home-link" href="/">
+            <span class="text-logo-left">danza</span>
+            <img class="logo" src="/assets/images/danzatantra-logo.png" title="danza tantra" alt="Inicio" width="42" height="42">
+            <span class="text-logo-right">tantra</span>
+          </a></div>
+          <h1 class="project-name">{{ page.title }}</h1>
+          {% if page.description %}
+            <h2 class="project-tagline">{{ page.description }}</h2>
+          {% endif %}
+        </div>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+
+      </footer>
+    </main>
+  </body>
+</html>

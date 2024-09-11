@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .landing-layout .project-name {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
@@ -43,6 +43,7 @@
 .landing-layout {
   .page-header .project-name {
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
 
