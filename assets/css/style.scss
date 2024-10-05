@@ -4,6 +4,12 @@
 @import "{{ site.theme }}";
 
 @media screen and (min-width: 64em) {
+  .page-header {
+    padding: 5rem 6rem 2rem 6rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
   #header-top-container {
     max-width: 64rem;
     margin: 0 auto;
